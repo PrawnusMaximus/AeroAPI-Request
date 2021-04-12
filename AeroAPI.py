@@ -17,8 +17,8 @@ STA = datetime.date(2021, 2, 8)
 STA_epoch = int(datetime.datetime(2021, 2, 9, 0, 0, 1).timestamp())
 
 # Set Excel file and json file save paths
-save_path_excel = 'C:\\UserData\\u555044\\Local Documents\\Git\\PrawnusMaximus\\schedule\\data\\excel\\'
-save_path_json = 'C:\\UserData\\u555044\\Local Documents\\Git\\PrawnusMaximus\\schedule\\data\\json\\'
+save_path_excel = 'ENTER_SAVE_PATH'
+save_path_json = 'ENTER_SAVE_PATH'
 datafile = STD.strftime('%d-%b-%y') + '--' + STA.strftime('%d-%b-%y') + '_data.json'
 datafile_save = save_path_json + datafile # Create json file name
 excelfile = 'ANA_Schedule-' + STD.strftime('%d-%b-%y') + '--' + STA.strftime('%d-%b-%y') + '.xlsx'
