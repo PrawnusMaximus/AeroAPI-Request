@@ -6,8 +6,9 @@ The code requests the user for a number of calls to AeroAPI 2.0 (default max is 
 Initial lines fo code set dates at which the schedule data will be pulled from and which Airline to request info on
 Example shown is All Nippon Airways (ANA)
 
-Data is then converted to JSON format for posterit
+Data is then converted to JSON format for posterity
 Further filtering was used to reduce data to ANA Wings flights only
+The distance between each airport was calculated using the AirportInfo and LatLongsToDistance calls from AeroAPI
 This information was then inserted into a .xlsx file for further evaluation
 
 This code is rough and ready to allow fast and curated data collection
