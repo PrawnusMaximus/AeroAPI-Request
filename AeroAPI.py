@@ -24,6 +24,8 @@ datafile_save = save_path_json + datafile # Create json file name
 excelfile = 'ANA_Schedule-' + STD.strftime('%d-%b-%y') + '--' + STA.strftime('%d-%b-%y') + '.xlsx'
 excelfile_save = save_path_excel + excelfile # Create Excel file name
 
+# AeroAPI 2.0 [Source Code] https://flightaware.com/commercial/aeroapi/
+
 username = 'YOUR_USERNAME' # Set Username
 apiKey = 'YOUR_API_KEY' # Set api Key
 fxmlUrl = "https://flightxml.flightaware.com/json/FlightXML2/" # Set api URL
